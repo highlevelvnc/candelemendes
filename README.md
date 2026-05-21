@@ -16,8 +16,16 @@ Site oficial em Next.js 15 + TypeScript + Tailwind 3.
 
 ```bash
 npm install
-npm run dev
-npm run build
+npm run dev          # http://localhost:3000
+npm run build && npm start
+```
+
+## Deploy
+
+Pronto para Vercel — basta importar o repo, sem configuração extra.
+
+```bash
+vercel --prod
 ```
 
 ## Configuração

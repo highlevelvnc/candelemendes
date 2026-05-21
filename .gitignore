@@ -8,7 +8,7 @@ out
 .vercel
 .claude/
 
-# Fotos cruas do cliente (já copiadas para site/public/portfolio)
+# Fotos cruas do cliente (já copiadas para public/portfolio)
 /2026-*.jpg
 /ChatGPT*.png
 
