@@ -46,22 +46,38 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-8 pt-32 pb-20 md:pt-36 md:pb-28 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-        <div className="lg:col-span-7 text-white" data-reveal>
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 backdrop-blur px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] mb-6">
+        <div className="lg:col-span-7 text-white">
+          <div
+            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 backdrop-blur px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] mb-6"
+            data-reveal
+            style={{ transitionDelay: "0ms" }}
+          >
             <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
             Desde {COMPANY.since} · Portugal
           </div>
-          <h1 className="font-display font-extrabold text-[2.25rem] leading-[1.05] sm:text-5xl lg:text-[4rem] tracking-tight mb-6">
+          <h1
+            className="font-display font-extrabold text-[2.25rem] leading-[1.05] sm:text-5xl lg:text-[4rem] tracking-tight mb-6"
+            data-reveal
+            style={{ transitionDelay: "120ms" }}
+          >
             Limpeza e Remodelações com{" "}
             <span className="text-gold-gradient">Qualidade</span>, Agilidade e{" "}
             <span className="text-gold-gradient">Confiança</span>.
           </h1>
-          <p className="text-base sm:text-lg text-white/85 max-w-xl mb-9 leading-relaxed">
+          <p
+            className="text-base sm:text-lg text-white/85 max-w-xl mb-9 leading-relaxed"
+            data-reveal
+            style={{ transitionDelay: "240ms" }}
+          >
             Desde {COMPANY.since}, a {COMPANY.name} entrega soluções
             profissionais para cuidar, renovar e valorizar espaços residenciais
             e comerciais em Portugal.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div
+            className="flex flex-col sm:flex-row gap-3 sm:gap-4"
+            data-reveal
+            style={{ transitionDelay: "360ms" }}
+          >
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -76,7 +92,11 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mt-12 grid grid-cols-3 max-w-md gap-6">
+          <div
+            className="mt-12 grid grid-cols-3 max-w-md gap-6"
+            data-reveal
+            style={{ transitionDelay: "480ms" }}
+          >
             <Stat value="14+" label="Anos de experiência" />
             <Stat value="500+" label="Projectos concluídos" />
             <Stat value="100%" label="Compromisso" />

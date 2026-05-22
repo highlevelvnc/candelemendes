@@ -11,10 +11,14 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import RevealInit from "@/components/RevealInit";
+import Loader from "@/components/Loader";
+import ScrollProgress from "@/components/ScrollProgress";
 
 export default function Home() {
   return (
     <>
+      <Loader />
+      <ScrollProgress />
       <RevealInit />
       <Header />
       <main>

@@ -9,6 +9,18 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 96px; /* compensa header sticky */
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Focus ring consistente em toda a UI */
+:where(a, button, [role="button"], input, textarea, summary):focus-visible {
+  outline: 2px solid #f2b705;
+  outline-offset: 3px;
+  border-radius: 6px;
 }
 
 body {
